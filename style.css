@@ -1,11 +1,16 @@
-#picture{
-    text-align: center;
+
+body{
+    background-color: violet;
 }
 
 .container{
     width: 100%;
     height:auto;
     margin: auto;
+    text-align: center;
+}
+
+#picture{
     text-align: center;
 }
 
@@ -26,6 +31,7 @@
     font-size: 15px;
     color: black;
     text-decoration:none;
+    text-align: center;
 }
 
 #menu ul li a:hover{
@@ -36,6 +42,7 @@
 
 #menu ul li button:hover{
     color:black;
+    
 }
 
 #menu ul li button{
@@ -43,4 +50,10 @@
     border:none;
     border-radius: 4px;
     cursor: pointer;
+    text-align: center;
+    color:black;
+}
+
+#but{
+    text-align: center;
 }

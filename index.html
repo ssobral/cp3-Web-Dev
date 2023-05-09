@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="/style.css">
+    <link rel="shortcut icon" href="./Imagens/Logo.png">
 </head>
 <body>
     <div class="container">
         
         <nav id="menu">
             <ul>
-                <li><button type="button" class="cor" onclick="trocar('white')">Tema Claro</button></li>
-                <li><button type="button" class="cor" onclick="trocar('grey')">Tema Escuro</button></li>
+                <li><button type="button" id="but" class="cor" onclick="trocar('white')">Tema Claro</button></li>
+                <li><button type="button" id="but" class="cor" onclick="trocar('grey')">Tema Escuro</button></li>
             </ul>
             <ul>
                 <li> <a href="/index.html">Home</a></li>
@@ -27,6 +28,11 @@
         <h1>Vinhacity</h1>
         <h2>Seja bem-vindo a página inicial</h2>
         <img id="picture" src="./Imagens/Logo.png" width="20%" height="20%">
-    
+    </div>
+
+    <script>
+        alert("Seja bem-vindo!")
+    </script>
+    <script src="/script.js"></script>
 </body>
 </html>
