@@ -147,8 +147,9 @@ body {
     background-color: rgba(0, 0, 0, 0.85);
     cursor: pointer;
 }
-
-
+.login-card button:disabled{
+    opacity: 0.4;
+}
 
 .login-card-social {
     display: flex;
