@@ -1,3 +1,6 @@
+function home(){
+    window.open("index.html")
+}
 function validateFields(){
    const emailValid = isEmailValid;
    const passwordValid = isPasswordValid;
@@ -17,7 +20,4 @@ function isPasswordValid(){
 }
 function validateEmail(email) {
     return /\S+@\S+\.\S+/.test(email);
-}
-function entrar(){
-    window.location.replace("http://127.0.0.1:5500/index.html");
 }
