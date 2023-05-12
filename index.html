@@ -25,10 +25,41 @@
         </nav>
         
         <hr width="80%" color="black">
-        <h1>Vinhacity</h1>
+        <h1>Vinhecity</h1>
         <h2>Seja bem-vindo a página inicial</h2>
         <img id="picture" src="./Imagens/Logo.png" width="400px" height="400px">
     </div>
+    <hr width="80%" color="black">
+    <table align="center" width="80%" height="50%" cellpadding="10" cellspacing="5">
+        <tr>
+            <td rowspan="2">
+                <img id="image"/>
+                <script>
+                    var imagens = [
+                       'Imagens/Vinhos1.jpg',
+                        'Imagens/Vinhos2.jpg',
+                        'Imagens/Vinhos3.jpg',
+                        'Imagens/Vinhos4.jpg',
+                        'Imagens/Vinhos5.jpg',
+                        'Imagens/Vinhos6.jpg',
+                    ];
+                    var Index = 0;
+                    function slideShow() {
+                        document.getElementById('image').src = imagens[Index];
+                        Index++;
+                        if (Index == imagens.length) { Index = 0; }
+                        setTimeout("slideShow()", 3000);
+                    }
+                    slideShow();
+                </script>
+            </td>
+            <td id="indextext">
+                Descubra a elegância e o sabor de Vinhecity, a vinícola que está conquistando o mundo. Com uma paixão ardente pelo vinho, nossa vinheria entrou recentemente no mercado e já está pronta para levar seus vinhos premiados para além das fronteiras. Em Vinhecity, a arte da produção de vinhos é levada a sério. Nossos especialistas viticultores trabalham em harmonia com a natureza, selecionando cuidadosamente as uvas mais nobres e utilizando técnicas tradicionais e inovadoras para criar vinhos excepcionais. Cada garrafa é um testemunho da nossa dedicação à qualidade e ao sabor inigualável.   
+            </td>
+        </tr>
+
+    </table>
+
 
     <script>
         alert("Seja bem-vindo!")

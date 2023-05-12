@@ -10,28 +10,32 @@
     <title>Página de login</title>
 </head>
 <body>
-
     <div class="login-card-container">
         <div class="login-card">
             <div class="login-card-logo">
                 <img src="/Imagens/logooo.jpg" alt="logo">
             </div>
             <div class="login-card-header">
-                <h1>Entrar</h1>
-                <div>Faça o login para melhor experiência do site</div>
+                <h1>Contato</h1>
+                <div>Caso seja necessário, nos envie uma mensagem.</div>
             </div>
             <form class="login-card-form">
                 <div class="form-item">
-                    <span class="form-item-icon material-symbols-rounded">mail</span>
-                    <input type="text" placeholder="xxxx@gmail.com" id="emailForm" 
+                    <span class="form-item-icon material-symbols-rounded">Person</span>
+                    <input type="text" placeholder="Digite seu nome" id="nameForm" 
                     onchange="validateFields()" autofocus required>
                 </div>
                 <div class="form-item">
-                    <span class="form-item-icon material-symbols-rounded">lock</span>
-                    <input type="password" placeholder="*****" id="passwordForm"
-                     onchange="validateFields()" required>
+                    <span class="form-item-icon material-symbols-rounded">mail</span>
+                    <input type="text" placeholder="Digite seu email" id="emailForm" 
+                    onchange="validateFields()" autofocus required>
                 </div>
-                <button type="button" id="entrar" disabled="true" onclick="home()">Entrar</button>
+                <div class="form-item">
+                    <span class="form-item-icon material-symbols-rounded">Label</span>
+                    <input type="text" placeholder="Digite sua mensagem" id="msgForm" 
+                    onchange="validateFields()" autofocus required>
+                </div>
+                <button type="button" id="entrar" disabled="true" onclick="mensagemEnviada()">Enviar</button>
             </form>
 
         <div class="login-card-social">
@@ -46,7 +50,13 @@
             </div>
         </div>
     </div>
-    <script src="/contato.js"></script>
+    <footer>
+        Data: <script>document.write(dataAtual)</script> /
+        Tel: (11)99930-2939 /
+        Instagram: @mansano__m
+    </footer>
+    <script src="/script.js"></script>
+
 </body>
 
 </html>

@@ -110,8 +110,8 @@ body {
 
 
 .login-card input[type="text"],
-.login-card input[type="password"],
-.login-card input[type="email"] {
+.login-card input[type="email"],
+.login-card input[type="text"] {
     border: none;
     outline: none;
     background: rgba(255, 255, 255, .3);
