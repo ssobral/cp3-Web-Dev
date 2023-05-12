@@ -43,7 +43,7 @@ function acertou(){
 }
 
 function errou(){
-    window.open("resperrada.html")
+    alert("Errou!")
 }
 
 function invalida(){
