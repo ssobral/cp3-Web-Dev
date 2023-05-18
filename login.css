@@ -2,15 +2,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
-
 body {
     font-family: 'Poppins', sans-serif;
     min-height: 100vh;
-    background: linear-gradient(to right, rgb(160, 160, 160),rgb(80, 79, 79));
+    background: linear-gradient(to right,  rgb(160, 160, 160), rgb(80, 79, 79));
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 
 
 .login-card {
@@ -31,6 +31,8 @@ body {
     z-index: -1;
 }
 
+
+
 .login-card-logo {
     margin-bottom: 2rem;
 }
@@ -38,6 +40,8 @@ body {
 .login-card-logo img {
     width: 250px;
 }
+
+
 
 .login-card-logo,
 .login-card-header,
@@ -101,17 +105,14 @@ body {
     margin-bottom: .5rem;
 }
 
-
-
 .login-card-footer {
     margin-top: 1.5rem;
     font-size: calc(1rem * .8);
 }
 
-
 .login-card input[type="text"],
-.login-card input[type="email"],
-.login-card input[type="text"] {
+.login-card input[type="password"],
+.login-card input[type="email"] {
     border: none;
     outline: none;
     background: rgba(255, 255, 255, .3);
@@ -146,9 +147,6 @@ body {
 .login-card button:hover {
     background-color: rgba(0, 0, 0, 0.85);
     cursor: pointer;
-}
-.login-card button:disabled{
-    opacity: 0.4;
 }
 
 .login-card-social {
@@ -189,7 +187,6 @@ body {
     background-color: white;
     transform: scale(1.1);
 }
-
 
 @media (max-width: 768px) {
 
